@@ -24,7 +24,7 @@ To run the script:
 python ticket-manager.py
 ```
 
-## What it does
+## What it Does
 
 1. Authenticates with the Freshdesk API using the provided API key 
 2. Searches for open tickets assigned to a particular agent, based on the query
@@ -35,14 +35,14 @@ python ticket-manager.py
 
 So in summary, it allows automatically closing out tickets that have gone stale.
 
-## Customizing
+## Customization
 
 The main sections to customize are:
 
 - API credentials
+- Organization's domain
 - Search query 
 - Filter criteria 
-- Note text
-- Business logic in the functions
+- Private note text
 
 This allows adapting it to your specific Freshdesk ticket workflow.
